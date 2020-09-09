@@ -11,7 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
- background-color: #FDF5E6;
+ background-color: #E0FFFF;
 }
 
 a {
@@ -511,6 +511,7 @@ section {
   border-radius: 50px;
 }
 
+
 .about .box-heading h3 {
   font-size: 25px;
   font-weight: 700;
@@ -522,16 +523,14 @@ section {
   margin-top: 40px;
 }
 
-.about .icon-box .icon {
-  float: left;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 30px;
-  height: 30px;
-  border: 2px solid #d6e8bf;
-  border-radius: 50px;
-  transition: 0.5s;
+.about .icon-box p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #353535;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  margin: 0 0 15px 0;
 }
 
 .about .icon-box .icon i {
@@ -1812,9 +1811,7 @@ section {
 /*Trovadorismo.html*/
 
 #editorial h3 {
-  border: 2px solid black;
-  border-radius: 5px;
-  font-size: 28px;
+  font-size: 34px;
   font-weight: 700;
   text-align: center;
   color: #000000;
@@ -1822,9 +1819,9 @@ section {
 }
 
 #editorial p {
-  font-size: 15px;
+  font-size: 20px;
   text-align: justify;
-  color: #000000;
+  font-color: #000000;
   margin-bottom: 15px;
 }
 
@@ -1846,9 +1843,7 @@ section {
 }
 
 #trovadorismoexp h3 {
-   border: 2px solid black;
-  border-radius: 5px;
-  font-size: 28px;
+  font-size: 34px;
   font-weight: 700;
   text-align: center;
   color: #000000;
@@ -1856,16 +1851,14 @@ section {
 }
 
 #trovadorismoexp p {
-  font-size: 15px;
+  font-size: 20px;
   text-align: justify;
   color: #000000;
   margin-bottom: 15px;
 }
 
 #entrevista h3 {
-  border: 2px solid black;
-  border-radius: 5px;
-  font-size: 28px;
+  font-size: 34px;
   font-weight: 700;
   text-align: center;
   color: #000000;
@@ -1873,7 +1866,7 @@ section {
 }
 
 #entrevista p {
-  font-size: 15px;
+  font-size: 20px;
   text-align: center;
   color: #000000;
   margin-bottom: 15px;
@@ -1885,9 +1878,7 @@ section {
 }
 
 #biografia h3 {
-  border: 2px solid black;
-  border-radius: 5px;
-  font-size: 28px;
+  font-size: 34px;
   font-weight: 700;
   text-align: center;
   color: #000000;
@@ -1895,7 +1886,7 @@ section {
 }
 
 #biografia p {
-  font-size: 15px;
+  font-size: 20px;
   text-align: justify;
   color: #000000;
   margin-bottom: 15px;
@@ -1916,6 +1907,46 @@ section {
   color: #000000;
   margin-bottom: 15px;
 }
+
+#trova h3 {
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 15px;
+  margin-top: 100px;
+}
+
+#trova p {
+  font-size: 20px;
+  text-align: justify;
+  font-color: #000000;
+  margin-bottom: 15px;
+}
+
+#trova h2{
+  font-size: 20px;
+  text-align: justify;
+  font-color: #000000;
+  margin-bottom: 15px;
+}
+
+#contextohist h3 {
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 15px;
+  margin-top: 100px;
+}
+
+#contextohist p {
+  font-size: 20px;
+  text-align: justify;
+  font-color: #000000;
+  margin-bottom: 15px;
+}
+
 
 @media (max-width: 768px) {
   #entrevista iframe{
